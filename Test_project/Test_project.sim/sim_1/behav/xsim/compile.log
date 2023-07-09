@@ -1,0 +1,7 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MyFiles/Vivado_workplace/Test_project/Test_project.srcs/sources_1/new/Top_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Top_module
+INFO: [VRFC 10-2458] undeclared symbol point4, assumed default net type wire [D:/MyFiles/Vivado_workplace/Test_project/Test_project.srcs/sources_1/new/Top_module.v:53]
+INFO: [VRFC 10-2458] undeclared symbol div_frequency, assumed default net type wire [D:/MyFiles/Vivado_workplace/Test_project/Test_project.srcs/sources_1/new/Top_module.v:59]
+WARNING: [VRFC 10-2096] empty statement in sequential block [D:/MyFiles/Vivado_workplace/Test_project/Test_project.srcs/sources_1/new/Top_module.v:73]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MyFiles/Vivado_workplace/Test_project/Test_project.srcs/sim_1/new/f.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module f

@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../project_8.srcs/sources_1/new/sub_Blue_teeth.v" \
+"../../../../project_8.srcs/sources_1/new/sub_bt_receiver.v" \
+"../../../../project_8.srcs/sources_1/new/sub_bt_transfer.v" \
+"../../../../project_8.srcs/sim_1/new/FZ_blue.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

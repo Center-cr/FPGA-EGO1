@@ -1,0 +1,9 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MyFiles/Vivado_workplace/project_7/project_7.srcs/sources_1/new/Top_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Top_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MyFiles/Vivado_workplace/project_7/project_7.srcs/sources_1/new/sub_7seg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sub_7seg
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MyFiles/Vivado_workplace/project_7/project_7.srcs/sources_1/new/sub_Frequency_div.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sub_Frequency_div
+WARNING: [VRFC 10-2096] empty statement in sequential block [D:/MyFiles/Vivado_workplace/project_7/project_7.srcs/sources_1/new/sub_Frequency_div.v:43]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MyFiles/Vivado_workplace/project_7/project_7.srcs/sim_1/new/FZ.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FZ

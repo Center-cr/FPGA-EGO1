@@ -1,0 +1,133 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Jun 21 21:38:07 2023
+# Process ID: 19424
+# Current directory: D:/MyFiles/Vivado_workplace/project_9 - Copy
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16952 D:\MyFiles\Vivado_workplace\project_9 - Copy\project_9.xpr
+# Log file: D:/MyFiles/Vivado_workplace/project_9 - Copy/vivado.log
+# Journal file: D:/MyFiles/Vivado_workplace/project_9 - Copy\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/MyFiles/Vivado_workplace/project_9 - Copy/project_9.xpr}
+INFO: [Project 1-313] Project file moved from 'D:/MyFiles/Vivado_workplace/project_9' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/MyPrograms/Vivado/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:50 ; elapsed = 00:00:22 . Memory (MB): peak = 725.992 ; gain = 120.465
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/MyFiles/Vivado_workplace/project_9 - Copy/project_9.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/MyPrograms/Vivado/Vivado/2019.1/data/xsim/xsim.ini' copied to run dir:'D:/MyFiles/Vivado_workplace/project_9 - Copy/project_9.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'Top_module' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'D:/MyFiles/Vivado_workplace/project_9 - Copy/project_9.sim/sim_1/behav/xsim/blk_mem_gen_0.mif'
+INFO: [SIM-utils-43] Exported 'D:/MyFiles/Vivado_workplace/project_9 - Copy/project_9.sim/sim_1/behav/xsim/DDS_cos.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/MyFiles/Vivado_workplace/project_9 - Copy/project_9.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Top_module_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MyFiles/Vivado_workplace/project_9 - Copy/project_9.srcs/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module blk_mem_gen_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MyFiles/Vivado_workplace/project_9 - Copy/project_9.srcs/sources_1/new/DDS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sub_DDS_sine
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MyFiles/Vivado_workplace/project_9 - Copy/project_9.srcs/sources_1/new/cal.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sub_cal_freq
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MyFiles/Vivado_workplace/project_9 - Copy/project_9.srcs/sources_1/new/div.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sub_Frequency_div
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MyFiles/Vivado_workplace/project_9 - Copy/project_9.srcs/sources_1/new/f_bcd.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sub_get_f_BCD
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MyFiles/Vivado_workplace/project_9 - Copy/project_9.srcs/sources_1/new/sub7seg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sub_7seg
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MyFiles/Vivado_workplace/project_9 - Copy/project_9.srcs/sources_1/new/sub_7seg_tran.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sub_7seg_translate
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MyFiles/Vivado_workplace/project_9 - Copy/project_9.srcs/sources_1/new/ulk.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_ut
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MyFiles/Vivado_workplace/project_9 - Copy/project_9.srcs/sources_1/new/t.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Top_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MyFiles/Vivado_workplace/project_9 - Copy/project_9.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/MyFiles/Vivado_workplace/project_9 - Copy/project_9.sim/sim_1/behav/xsim'
+"xelab -wto 1337e7278e97449da55942dce5bc03ab --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_3 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot Top_module_behav xil_defaultlib.Top_module xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/MyPrograms/Vivado/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 1337e7278e97449da55942dce5bc03ab --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_3 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot Top_module_behav xil_defaultlib.Top_module xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 19 for port 'd' [D:/MyFiles/Vivado_workplace/project_9 - Copy/project_9.srcs/sources_1/new/t.v:45]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 5 for port 'seg7' [D:/MyFiles/Vivado_workplace/project_9 - Copy/project_9.srcs/sources_1/new/sub7seg.v:59]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 5 for port 'seg7' [D:/MyFiles/Vivado_workplace/project_9 - Copy/project_9.srcs/sources_1/new/sub7seg.v:87]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 5 for port 'seg7' [D:/MyFiles/Vivado_workplace/project_9 - Copy/project_9.srcs/sources_1/new/sub7seg.v:83]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 5 for port 'seg7' [D:/MyFiles/Vivado_workplace/project_9 - Copy/project_9.srcs/sources_1/new/sub7seg.v:79]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 5 for port 'seg7' [D:/MyFiles/Vivado_workplace/project_9 - Copy/project_9.srcs/sources_1/new/sub7seg.v:75]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 5 for port 'seg7' [D:/MyFiles/Vivado_workplace/project_9 - Copy/project_9.srcs/sources_1/new/sub7seg.v:71]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 5 for port 'seg7' [D:/MyFiles/Vivado_workplace/project_9 - Copy/project_9.srcs/sources_1/new/sub7seg.v:67]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 5 for port 'seg7' [D:/MyFiles/Vivado_workplace/project_9 - Copy/project_9.srcs/sources_1/new/sub7seg.v:63]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 19 for port 'd' [D:/MyFiles/Vivado_workplace/project_9 - Copy/project_9.srcs/sources_1/new/t.v:67]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.sub_Frequency_div
+Compiling module xil_defaultlib.sub_7seg_translate
+Compiling module xil_defaultlib.sub_get_f_BCD
+Compiling module xil_defaultlib.sub_7seg
+Compiling module blk_mem_gen_v8_4_3.blk_mem_gen_v8_4_3_output_stage(...
+Compiling module blk_mem_gen_v8_4_3.blk_mem_gen_v8_4_3_output_stage(...
+Compiling module blk_mem_gen_v8_4_3.blk_mem_gen_v8_4_3_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_3.blk_mem_gen_v8_4_3_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_3.blk_mem_gen_v8_4_3(C_FAMILY="art...
+Compiling module xil_defaultlib.blk_mem_gen_0
+Compiling module xil_defaultlib.sub_DDS_sine
+Compiling module xil_defaultlib.clk_ut
+Compiling module xil_defaultlib.sub_cal_freq
+Compiling module xil_defaultlib.Top_module
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Top_module_behav
+ERROR: [Common 17-165] Too many positional options when parsing '-notrace', please type 'webtalk -help' for usage info.
+
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 756.152 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '8' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/MyFiles/Vivado_workplace/project_9 - Copy/project_9.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Top_module_behav -key {Behavioral:sim_1:Functional:Top_module} -tclbatch {Top_module.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source Top_module.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module Top_module.sin1.rom_addr_douta.inst.native_mem_module.blk_mem_gen_v8_4_3_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+xsim: Time (s): cpu = 00:00:11 ; elapsed = 00:00:05 . Memory (MB): peak = 767.238 ; gain = 10.590
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Top_module_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:15 ; elapsed = 00:00:19 . Memory (MB): peak = 767.238 ; gain = 29.375
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:10 ; elapsed = 00:00:18 . Memory (MB): peak = 776.156 ; gain = 6.160
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Jun 21 21:45:56 2023...

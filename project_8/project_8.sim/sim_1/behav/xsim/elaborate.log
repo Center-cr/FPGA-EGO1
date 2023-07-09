@@ -1,0 +1,9 @@
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/MyPrograms/Vivado/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 872d7a81cd4b4c21a26181e2cbe705c3 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot mesureFreq_behav xil_defaultlib.mesureFreq xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-2063] Module <mult_gen_AxA> not found while processing module instance <AxA> [D:/MyFiles/Vivado_workplace/project_8/project_8.srcs/sources_1/new/TEST.v:170]
+ERROR: [VRFC 10-2063] Module <mult_gen_BxB> not found while processing module instance <BxB> [D:/MyFiles/Vivado_workplace/project_8/project_8.srcs/sources_1/new/TEST.v:179]
+ERROR: [VRFC 10-2063] Module <div_gen_signalFreq> not found while processing module instance <div_gen_signalFreq> [D:/MyFiles/Vivado_workplace/project_8/project_8.srcs/sources_1/new/TEST.v:216]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.

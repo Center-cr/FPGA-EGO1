@@ -1,0 +1,660 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Oct 28 17:36:16 2022
+# Process ID: 19512
+# Current directory: D:/MyFiles/Vivado_workplace/project_9/project_9.runs/synth_1
+# Command line: vivado.exe -log Top_module.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Top_module.tcl
+# Log file: D:/MyFiles/Vivado_workplace/project_9/project_9.runs/synth_1/Top_module.vds
+# Journal file: D:/MyFiles/Vivado_workplace/project_9/project_9.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Top_module.tcl -notrace
+Command: synth_design -top Top_module -part xc7a35tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcsg324-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 21068 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 710.312 ; gain = 177.492
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Top_module' [D:/MyFiles/Vivado_workplace/project_9/project_9.srcs/sources_1/new/t.v:23]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [D:/MyFiles/Vivado_workplace/project_9/project_9.srcs/sources_1/new/t.v:42]
+INFO: [Synth 8-6157] synthesizing module 'sub_Frequency_div' [D:/MyFiles/Vivado_workplace/project_9/project_9.srcs/sources_1/new/div.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'sub_Frequency_div' (1#1) [D:/MyFiles/Vivado_workplace/project_9/project_9.srcs/sources_1/new/div.v:23]
+WARNING: [Synth 8-7023] instance 'd1' of module 'sub_Frequency_div' has 4 connections declared, but only 3 given [D:/MyFiles/Vivado_workplace/project_9/project_9.srcs/sources_1/new/t.v:42]
+INFO: [Synth 8-6157] synthesizing module 'sub_7seg' [D:/MyFiles/Vivado_workplace/project_9/project_9.srcs/sources_1/new/sub7seg.v:31]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [D:/MyFiles/Vivado_workplace/project_9/project_9.srcs/sources_1/new/sub7seg.v:58]
+INFO: [Synth 8-6157] synthesizing module 'sub_7seg_translate' [D:/MyFiles/Vivado_workplace/project_9/project_9.srcs/sources_1/new/sub_7seg_tran.v:32]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/MyFiles/Vivado_workplace/project_9/project_9.srcs/sources_1/new/sub_7seg_tran.v:41]
+INFO: [Synth 8-6155] done synthesizing module 'sub_7seg_translate' (2#1) [D:/MyFiles/Vivado_workplace/project_9/project_9.srcs/sources_1/new/sub_7seg_tran.v:32]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [D:/MyFiles/Vivado_workplace/project_9/project_9.srcs/sources_1/new/sub7seg.v:62]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [D:/MyFiles/Vivado_workplace/project_9/project_9.srcs/sources_1/new/sub7seg.v:66]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [D:/MyFiles/Vivado_workplace/project_9/project_9.srcs/sources_1/new/sub7seg.v:70]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [D:/MyFiles/Vivado_workplace/project_9/project_9.srcs/sources_1/new/sub7seg.v:74]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [D:/MyFiles/Vivado_workplace/project_9/project_9.srcs/sources_1/new/sub7seg.v:78]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [D:/MyFiles/Vivado_workplace/project_9/project_9.srcs/sources_1/new/sub7seg.v:82]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [D:/MyFiles/Vivado_workplace/project_9/project_9.srcs/sources_1/new/sub7seg.v:86]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [D:/MyFiles/Vivado_workplace/project_9/project_9.srcs/sources_1/new/sub7seg.v:96]
+INFO: [Synth 8-6157] synthesizing module 'sub_get_f_BCD' [D:/MyFiles/Vivado_workplace/project_9/project_9.srcs/sources_1/new/f_bcd.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'sub_get_f_BCD' (3#1) [D:/MyFiles/Vivado_workplace/project_9/project_9.srcs/sources_1/new/f_bcd.v:23]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [D:/MyFiles/Vivado_workplace/project_9/project_9.srcs/sources_1/new/sub7seg.v:110]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [D:/MyFiles/Vivado_workplace/project_9/project_9.srcs/sources_1/new/sub7seg.v:114]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [D:/MyFiles/Vivado_workplace/project_9/project_9.srcs/sources_1/new/sub7seg.v:118]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [D:/MyFiles/Vivado_workplace/project_9/project_9.srcs/sources_1/new/sub7seg.v:122]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [D:/MyFiles/Vivado_workplace/project_9/project_9.srcs/sources_1/new/sub7seg.v:126]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [D:/MyFiles/Vivado_workplace/project_9/project_9.srcs/sources_1/new/sub7seg.v:130]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [D:/MyFiles/Vivado_workplace/project_9/project_9.srcs/sources_1/new/sub7seg.v:134]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [D:/MyFiles/Vivado_workplace/project_9/project_9.srcs/sources_1/new/sub7seg.v:138]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [D:/MyFiles/Vivado_workplace/project_9/project_9.srcs/sources_1/new/sub7seg.v:157]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [D:/MyFiles/Vivado_workplace/project_9/project_9.srcs/sources_1/new/sub7seg.v:161]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [D:/MyFiles/Vivado_workplace/project_9/project_9.srcs/sources_1/new/sub7seg.v:165]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [D:/MyFiles/Vivado_workplace/project_9/project_9.srcs/sources_1/new/sub7seg.v:169]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [D:/MyFiles/Vivado_workplace/project_9/project_9.srcs/sources_1/new/sub7seg.v:173]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [D:/MyFiles/Vivado_workplace/project_9/project_9.srcs/sources_1/new/sub7seg.v:177]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [D:/MyFiles/Vivado_workplace/project_9/project_9.srcs/sources_1/new/sub7seg.v:181]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [D:/MyFiles/Vivado_workplace/project_9/project_9.srcs/sources_1/new/sub7seg.v:185]
+INFO: [Synth 8-6155] done synthesizing module 'sub_7seg' (4#1) [D:/MyFiles/Vivado_workplace/project_9/project_9.srcs/sources_1/new/sub7seg.v:31]
+WARNING: [Synth 8-7023] instance 's1' of module 'sub_7seg' has 12 connections declared, but only 11 given [D:/MyFiles/Vivado_workplace/project_9/project_9.srcs/sources_1/new/t.v:50]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [D:/MyFiles/Vivado_workplace/project_9/project_9.srcs/sources_1/new/t.v:64]
+WARNING: [Synth 8-7023] instance 'd2' of module 'sub_Frequency_div' has 4 connections declared, but only 3 given [D:/MyFiles/Vivado_workplace/project_9/project_9.srcs/sources_1/new/t.v:64]
+INFO: [Synth 8-6157] synthesizing module 'sub_DDS_sine' [D:/MyFiles/Vivado_workplace/project_9/project_9.srcs/sources_1/new/DDS.v:23]
+INFO: [Synth 8-6157] synthesizing module 'blk_mem_gen_0' [D:/MyFiles/Vivado_workplace/project_9/project_9.runs/synth_1/.Xil/Vivado-19512-DESKTOP-55M8RCS/realtime/blk_mem_gen_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'blk_mem_gen_0' (5#1) [D:/MyFiles/Vivado_workplace/project_9/project_9.runs/synth_1/.Xil/Vivado-19512-DESKTOP-55M8RCS/realtime/blk_mem_gen_0_stub.v:6]
+WARNING: [Synth 8-7023] instance 'rom_addr_douta' of module 'blk_mem_gen_0' has 4 connections declared, but only 3 given [D:/MyFiles/Vivado_workplace/project_9/project_9.srcs/sources_1/new/DDS.v:36]
+INFO: [Synth 8-6155] done synthesizing module 'sub_DDS_sine' (6#1) [D:/MyFiles/Vivado_workplace/project_9/project_9.srcs/sources_1/new/DDS.v:23]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [D:/MyFiles/Vivado_workplace/project_9/project_9.srcs/sources_1/new/t.v:80]
+INFO: [Synth 8-6157] synthesizing module 'clk_ut' [D:/MyFiles/Vivado_workplace/project_9/project_9.srcs/sources_1/new/ulk.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'clk_ut' (7#1) [D:/MyFiles/Vivado_workplace/project_9/project_9.srcs/sources_1/new/ulk.v:23]
+WARNING: [Synth 8-7023] instance 'u1' of module 'clk_ut' has 3 connections declared, but only 2 given [D:/MyFiles/Vivado_workplace/project_9/project_9.srcs/sources_1/new/t.v:80]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [D:/MyFiles/Vivado_workplace/project_9/project_9.srcs/sources_1/new/t.v:85]
+INFO: [Synth 8-6157] synthesizing module 'sub_cal_freq' [D:/MyFiles/Vivado_workplace/project_9/project_9.srcs/sources_1/new/cal.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'sub_cal_freq' (8#1) [D:/MyFiles/Vivado_workplace/project_9/project_9.srcs/sources_1/new/cal.v:23]
+WARNING: [Synth 8-7023] instance 'c1' of module 'sub_cal_freq' has 4 connections declared, but only 3 given [D:/MyFiles/Vivado_workplace/project_9/project_9.srcs/sources_1/new/t.v:85]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [D:/MyFiles/Vivado_workplace/project_9/project_9.srcs/sources_1/new/t.v:90]
+INFO: [Synth 8-6155] done synthesizing module 'Top_module' (9#1) [D:/MyFiles/Vivado_workplace/project_9/project_9.srcs/sources_1/new/t.v:23]
+WARNING: [Synth 8-3917] design Top_module has port D[5] driven by constant 0
+WARNING: [Synth 8-3917] design Top_module has port D[4] driven by constant 0
+WARNING: [Synth 8-3917] design Top_module has port D[3] driven by constant 0
+WARNING: [Synth 8-3917] design Top_module has port D[2] driven by constant 0
+WARNING: [Synth 8-3917] design Top_module has port D[1] driven by constant 0
+WARNING: [Synth 8-3917] design Top_module has port D[0] driven by constant 0
+WARNING: [Synth 8-3331] design sub_get_f_BCD has unconnected port clk
+WARNING: [Synth 8-3331] design sub_Frequency_div has unconnected port clr
+WARNING: [Synth 8-3331] design sub_7seg has unconnected port clr
+WARNING: [Synth 8-3331] design sub_7seg has unconnected port din[7]
+WARNING: [Synth 8-3331] design sub_7seg has unconnected port din[6]
+WARNING: [Synth 8-3331] design sub_7seg has unconnected port din[5]
+WARNING: [Synth 8-3331] design sub_7seg has unconnected port din[4]
+WARNING: [Synth 8-3331] design sub_7seg has unconnected port din[3]
+WARNING: [Synth 8-3331] design sub_7seg has unconnected port din[2]
+WARNING: [Synth 8-3331] design sub_7seg has unconnected port din[1]
+WARNING: [Synth 8-3331] design sub_7seg has unconnected port din[0]
+WARNING: [Synth 8-3331] design Top_module has unconnected port din[7]
+WARNING: [Synth 8-3331] design Top_module has unconnected port din[6]
+WARNING: [Synth 8-3331] design Top_module has unconnected port din[5]
+WARNING: [Synth 8-3331] design Top_module has unconnected port din[4]
+WARNING: [Synth 8-3331] design Top_module has unconnected port din[3]
+WARNING: [Synth 8-3331] design Top_module has unconnected port din[2]
+WARNING: [Synth 8-3331] design Top_module has unconnected port din[1]
+WARNING: [Synth 8-3331] design Top_module has unconnected port din[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 776.508 ; gain = 243.688
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 776.508 ; gain = 243.688
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 776.508 ; gain = 243.688
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/MyFiles/Vivado_workplace/project_9/project_9.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'sin1/rom_addr_douta'
+Finished Parsing XDC File [d:/MyFiles/Vivado_workplace/project_9/project_9.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'sin1/rom_addr_douta'
+Parsing XDC File [D:/MyFiles/Vivado_workplace/project_9/project_9.srcs/constrs_1/new/WW.xdc]
+Finished Parsing XDC File [D:/MyFiles/Vivado_workplace/project_9/project_9.srcs/constrs_1/new/WW.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/MyFiles/Vivado_workplace/project_9/project_9.srcs/constrs_1/new/WW.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Top_module_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Top_module_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 903.855 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 903.855 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 903.855 ; gain = 371.035
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 903.855 ; gain = 371.035
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for sin1/rom_addr_douta. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 903.855 ; gain = 371.035
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "position_t" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 903.855 ; gain = 371.035
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     20 Bit       Adders := 2     
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 304   
+	   2 Input      3 Bit       Adders := 22    
++---Registers : 
+	               32 Bit    Registers := 3     
+	                8 Bit    Registers := 2     
+	                7 Bit    Registers := 34    
+	                1 Bit    Registers := 8     
++---Muxes : 
+	   9 Input      8 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 24    
+	   4 Input      7 Bit        Muxes := 8     
+	   2 Input      4 Bit        Muxes := 280   
+	   2 Input      3 Bit        Muxes := 16    
+	   9 Input      1 Bit        Muxes := 4     
+	   4 Input      1 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 2     
+	   3 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module sub_Frequency_div__hierPathDup__1 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     20 Bit       Adders := 1     
++---Registers : 
+	                1 Bit    Registers := 1     
+Module sub_7seg_translate 
+Detailed RTL Component Info : 
++---Registers : 
+	                7 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      7 Bit        Muxes := 1     
+Module sub_7seg_translate__hierPathDup__23 
+Detailed RTL Component Info : 
++---Registers : 
+	                7 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      7 Bit        Muxes := 1     
+Module sub_7seg_translate__hierPathDup__22 
+Detailed RTL Component Info : 
++---Registers : 
+	                7 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      7 Bit        Muxes := 1     
+Module sub_7seg_translate__hierPathDup__21 
+Detailed RTL Component Info : 
++---Registers : 
+	                7 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      7 Bit        Muxes := 1     
+Module sub_7seg_translate__hierPathDup__20 
+Detailed RTL Component Info : 
++---Registers : 
+	                7 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      7 Bit        Muxes := 1     
+Module sub_7seg_translate__hierPathDup__19 
+Detailed RTL Component Info : 
++---Registers : 
+	                7 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      7 Bit        Muxes := 1     
+Module sub_7seg_translate__hierPathDup__18 
+Detailed RTL Component Info : 
++---Registers : 
+	                7 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      7 Bit        Muxes := 1     
+Module sub_7seg_translate__hierPathDup__17 
+Detailed RTL Component Info : 
++---Registers : 
+	                7 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      7 Bit        Muxes := 1     
+Module sub_get_f_BCD__hierPathDup__1 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 152   
+	   2 Input      3 Bit       Adders := 11    
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 140   
+	   2 Input      3 Bit        Muxes := 8     
+Module sub_7seg_translate__hierPathDup__16 
+Detailed RTL Component Info : 
++---Registers : 
+	                7 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      7 Bit        Muxes := 1     
+Module sub_7seg_translate__hierPathDup__15 
+Detailed RTL Component Info : 
++---Registers : 
+	                7 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      7 Bit        Muxes := 1     
+Module sub_7seg_translate__hierPathDup__14 
+Detailed RTL Component Info : 
++---Registers : 
+	                7 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      7 Bit        Muxes := 1     
+Module sub_7seg_translate__hierPathDup__13 
+Detailed RTL Component Info : 
++---Registers : 
+	                7 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      7 Bit        Muxes := 1     
+Module sub_7seg_translate__hierPathDup__12 
+Detailed RTL Component Info : 
++---Registers : 
+	                7 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      7 Bit        Muxes := 1     
+Module sub_7seg_translate__hierPathDup__11 
+Detailed RTL Component Info : 
++---Registers : 
+	                7 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      7 Bit        Muxes := 1     
+Module sub_7seg_translate__hierPathDup__10 
+Detailed RTL Component Info : 
++---Registers : 
+	                7 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      7 Bit        Muxes := 1     
+Module sub_7seg_translate__hierPathDup__9 
+Detailed RTL Component Info : 
++---Registers : 
+	                7 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      7 Bit        Muxes := 1     
+Module sub_7seg_translate__hierPathDup__8 
+Detailed RTL Component Info : 
++---Registers : 
+	                7 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      7 Bit        Muxes := 1     
+Module sub_7seg_translate__hierPathDup__7 
+Detailed RTL Component Info : 
++---Registers : 
+	                7 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      7 Bit        Muxes := 1     
+Module sub_7seg_translate__hierPathDup__6 
+Detailed RTL Component Info : 
++---Registers : 
+	                7 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      7 Bit        Muxes := 1     
+Module sub_7seg_translate__hierPathDup__5 
+Detailed RTL Component Info : 
++---Registers : 
+	                7 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      7 Bit        Muxes := 1     
+Module sub_7seg_translate__hierPathDup__4 
+Detailed RTL Component Info : 
++---Registers : 
+	                7 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      7 Bit        Muxes := 1     
+Module sub_7seg_translate__hierPathDup__3 
+Detailed RTL Component Info : 
++---Registers : 
+	                7 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      7 Bit        Muxes := 1     
+Module sub_7seg_translate__hierPathDup__2 
+Detailed RTL Component Info : 
++---Registers : 
+	                7 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      7 Bit        Muxes := 1     
+Module sub_7seg_translate__hierPathDup__1 
+Detailed RTL Component Info : 
++---Registers : 
+	                7 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      7 Bit        Muxes := 1     
+Module sub_7seg 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+	                7 Bit    Registers := 10    
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   9 Input      8 Bit        Muxes := 1     
+	   4 Input      7 Bit        Muxes := 8     
+	   9 Input      1 Bit        Muxes := 4     
+	   4 Input      1 Bit        Muxes := 2     
+Module sub_Frequency_div 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     20 Bit       Adders := 1     
++---Registers : 
+	                1 Bit    Registers := 1     
+Module sub_DDS_sine 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+Module clk_ut 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module sub_cal_freq 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 3     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 2     
+	   3 Input      1 Bit        Muxes := 1     
+Module sub_get_f_BCD 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 152   
+	   2 Input      3 Bit       Adders := 11    
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 140   
+	   2 Input      3 Bit        Muxes := 8     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5546] ROM "position_t" won't be mapped to RAM because it is too sparse
+DSP Report: Generating DSP p_0_out, operation Mode is: (A:0x1312d)*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+WARNING: [Synth 8-3917] design Top_module has port D[5] driven by constant 0
+WARNING: [Synth 8-3917] design Top_module has port D[4] driven by constant 0
+WARNING: [Synth 8-3917] design Top_module has port D[3] driven by constant 0
+WARNING: [Synth 8-3917] design Top_module has port D[2] driven by constant 0
+WARNING: [Synth 8-3917] design Top_module has port D[1] driven by constant 0
+WARNING: [Synth 8-3917] design Top_module has port D[0] driven by constant 0
+WARNING: [Synth 8-3331] design sub_get_f_BCD has unconnected port clk
+WARNING: [Synth 8-3331] design sub_get_f_BCD__hierPathDup__1 has unconnected port clk
+WARNING: [Synth 8-3331] design sub_7seg has unconnected port clr
+WARNING: [Synth 8-3331] design sub_7seg has unconnected port din[7]
+WARNING: [Synth 8-3331] design sub_7seg has unconnected port din[6]
+WARNING: [Synth 8-3331] design sub_7seg has unconnected port din[5]
+WARNING: [Synth 8-3331] design sub_7seg has unconnected port din[4]
+WARNING: [Synth 8-3331] design sub_7seg has unconnected port din[3]
+WARNING: [Synth 8-3331] design sub_7seg has unconnected port din[2]
+WARNING: [Synth 8-3331] design sub_7seg has unconnected port din[1]
+WARNING: [Synth 8-3331] design sub_7seg has unconnected port din[0]
+WARNING: [Synth 8-3331] design Top_module has unconnected port din[7]
+WARNING: [Synth 8-3331] design Top_module has unconnected port din[6]
+WARNING: [Synth 8-3331] design Top_module has unconnected port din[5]
+WARNING: [Synth 8-3331] design Top_module has unconnected port din[4]
+WARNING: [Synth 8-3331] design Top_module has unconnected port din[3]
+WARNING: [Synth 8-3331] design Top_module has unconnected port din[2]
+WARNING: [Synth 8-3331] design Top_module has unconnected port din[1]
+WARNING: [Synth 8-3331] design Top_module has unconnected port din[0]
+INFO: [Synth 8-3886] merging instance 'c1/clk_count_pre_reg[27]' (FD) to 'c1/clk_count_pre_reg[31]'
+INFO: [Synth 8-3886] merging instance 'c1/clk_count_pre_reg[28]' (FD) to 'c1/clk_count_pre_reg[31]'
+INFO: [Synth 8-3886] merging instance 'c1/clk_count_pre_reg[29]' (FD) to 'c1/clk_count_pre_reg[31]'
+INFO: [Synth 8-3886] merging instance 'c1/clk_count_pre_reg[30]' (FD) to 'c1/clk_count_pre_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (c1/\clk_count_pre_reg[31] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:03:29 ; elapsed = 00:03:34 . Memory (MB): peak = 1223.988 ; gain = 691.168
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping  Report (see note below)
++------------+---------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping   | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+---------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|sub_7seg    | (A:0x1312d)*B | 10     | 17     | -      | -      | 27     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++------------+---------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:03:42 ; elapsed = 00:03:47 . Memory (MB): peak = 1223.988 ; gain = 691.168
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:03:43 ; elapsed = 00:03:47 . Memory (MB): peak = 1223.988 ; gain = 691.168
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:03:46 ; elapsed = 00:03:50 . Memory (MB): peak = 1271.648 ; gain = 738.828
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \sin1/rom_addr_douta  has unconnected pin ena
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [D:/MyFiles/Vivado_workplace/project_9/project_9.srcs/sources_1/new/sub7seg.v:357]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [D:/MyFiles/Vivado_workplace/project_9/project_9.srcs/sources_1/new/cal.v:64]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [D:/MyFiles/Vivado_workplace/project_9/project_9.srcs/sources_1/new/DDS.v:32]
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:03:48 ; elapsed = 00:03:53 . Memory (MB): peak = 1277.422 ; gain = 744.602
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:03:48 ; elapsed = 00:03:53 . Memory (MB): peak = 1277.422 ; gain = 744.602
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:03:48 ; elapsed = 00:03:53 . Memory (MB): peak = 1277.422 ; gain = 744.602
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:03:48 ; elapsed = 00:03:53 . Memory (MB): peak = 1277.422 ; gain = 744.602
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:03:48 ; elapsed = 00:03:53 . Memory (MB): peak = 1277.422 ; gain = 744.602
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:03:48 ; elapsed = 00:03:53 . Memory (MB): peak = 1277.422 ; gain = 744.602
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |blk_mem_gen_0 |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+--------------+------+
+|      |Cell          |Count |
++------+--------------+------+
+|1     |blk_mem_gen_0 |     1|
+|2     |BUFG          |     1|
+|3     |CARRY4        |    39|
+|4     |DSP48E1       |     1|
+|5     |LUT1          |     7|
+|6     |LUT2          |    18|
+|7     |LUT3          |    14|
+|8     |LUT4          |   127|
+|9     |LUT5          |   199|
+|10    |LUT6          |   725|
+|11    |FDCE          |     8|
+|12    |FDRE          |   468|
+|13    |FDSE          |     2|
+|14    |IBUF          |    13|
+|15    |OBUF          |    39|
++------+--------------+------+
+
+Report Instance Areas: 
++------+------------+------------------------------------+------+
+|      |Instance    |Module                              |Cells |
++------+------------+------------------------------------+------+
+|1     |top         |                                    |  1669|
+|2     |  B3        |sub_get_f_BCD                       |   471|
+|3     |  c1        |sub_cal_freq                        |   233|
+|4     |  d1        |sub_Frequency_div__hierPathDup__1   |    54|
+|5     |  d2        |sub_Frequency_div                   |    54|
+|6     |  s1        |sub_7seg                            |   776|
+|7     |    B2      |sub_get_f_BCD__hierPathDup__1       |   306|
+|8     |    mode1_0 |sub_7seg_translate__hierPathDup__17 |     7|
+|9     |    mode1_1 |sub_7seg_translate__hierPathDup__18 |     7|
+|10    |    mode1_2 |sub_7seg_translate__hierPathDup__19 |     7|
+|11    |    mode1_3 |sub_7seg_translate__hierPathDup__20 |     7|
+|12    |    mode1_4 |sub_7seg_translate__hierPathDup__21 |     7|
+|13    |    mode1_5 |sub_7seg_translate__hierPathDup__22 |     7|
+|14    |    mode1_6 |sub_7seg_translate__hierPathDup__23 |     7|
+|15    |    mode1_7 |sub_7seg_translate                  |     7|
+|16    |    mode2_0 |sub_7seg_translate__hierPathDup__9  |    14|
+|17    |    mode2_1 |sub_7seg_translate__hierPathDup__10 |    14|
+|18    |    mode2_2 |sub_7seg_translate__hierPathDup__11 |    14|
+|19    |    mode2_3 |sub_7seg_translate__hierPathDup__12 |    14|
+|20    |    mode2_4 |sub_7seg_translate__hierPathDup__13 |    14|
+|21    |    mode2_5 |sub_7seg_translate__hierPathDup__14 |    14|
+|22    |    mode2_6 |sub_7seg_translate__hierPathDup__15 |    14|
+|23    |    mode2_7 |sub_7seg_translate__hierPathDup__16 |    15|
+|24    |    mode3_0 |sub_7seg_translate__hierPathDup__1  |    14|
+|25    |    mode3_1 |sub_7seg_translate__hierPathDup__2  |    14|
+|26    |    mode3_2 |sub_7seg_translate__hierPathDup__3  |    14|
+|27    |    mode3_3 |sub_7seg_translate__hierPathDup__4  |    14|
+|28    |    mode3_4 |sub_7seg_translate__hierPathDup__5  |    14|
+|29    |    mode3_5 |sub_7seg_translate__hierPathDup__6  |    14|
+|30    |    mode3_6 |sub_7seg_translate__hierPathDup__7  |    14|
+|31    |    mode3_7 |sub_7seg_translate__hierPathDup__8  |    15|
+|32    |  sin1      |sub_DDS_sine                        |    27|
+|33    |  u1        |clk_ut                              |     1|
++------+------------+------------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:03:48 ; elapsed = 00:03:53 . Memory (MB): peak = 1277.422 ; gain = 744.602
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 1 critical warnings and 28 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:03:39 ; elapsed = 00:03:50 . Memory (MB): peak = 1277.422 ; gain = 617.254
+Synthesis Optimization Complete : Time (s): cpu = 00:03:48 ; elapsed = 00:03:53 . Memory (MB): peak = 1277.422 ; gain = 744.602
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 40 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1277.422 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+38 Infos, 89 Warnings, 1 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:03:53 ; elapsed = 00:03:59 . Memory (MB): peak = 1277.422 ; gain = 976.516
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1277.422 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'D:/MyFiles/Vivado_workplace/project_9/project_9.runs/synth_1/Top_module.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Top_module_utilization_synth.rpt -pb Top_module_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Oct 28 17:40:20 2022...

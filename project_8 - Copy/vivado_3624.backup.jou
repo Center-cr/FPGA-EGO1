@@ -1,0 +1,151 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Jun 22 02:56:14 2023
+# Process ID: 3624
+# Current directory: D:/MyFiles/Vivado_workplace/project_8 - Copy
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent32344 D:\MyFiles\Vivado_workplace\project_8 - Copy\project_8.xpr
+# Log file: D:/MyFiles/Vivado_workplace/project_8 - Copy/vivado.log
+# Journal file: D:/MyFiles/Vivado_workplace/project_8 - Copy\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/MyFiles/Vivado_workplace/project_8 - Copy/project_8.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config {D:/MyFiles/Vivado_workplace/project_8 - Copy/FZ_behav.wcfg}
+source TB_readfile.tcl
+run 10 us
+save_wave_config {D:/MyFiles/Vivado_workplace/project_8 - Copy/FZ_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config {D:/MyFiles/Vivado_workplace/project_8 - Copy/FZ_behav.wcfg}
+source TB_readfile.tcl
+run all
+close_sim
+launch_simulation
+open_wave_config {D:/MyFiles/Vivado_workplace/project_8 - Copy/FZ_behav.wcfg}
+source TB_readfile.tcl
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+save_wave_config {D:/MyFiles/Vivado_workplace/project_8 - Copy/FZ_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config {D:/MyFiles/Vivado_workplace/project_8 - Copy/FZ_behav.wcfg}
+source TB_readfile.tcl
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+close_sim
+launch_simulation
+open_wave_config {D:/MyFiles/Vivado_workplace/project_8 - Copy/FZ_behav.wcfg}
+source TB_readfile.tcl
+current_wave_config {FZ_behav.wcfg}
+add_wave {{/TB_readfile/SCLK}} 
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+save_wave_config {D:/MyFiles/Vivado_workplace/project_8 - Copy/FZ_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config {D:/MyFiles/Vivado_workplace/project_8 - Copy/FZ_behav.wcfg}
+source TB_readfile.tcl
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+close_sim
+launch_simulation
+open_wave_config {D:/MyFiles/Vivado_workplace/project_8 - Copy/FZ_behav.wcfg}
+source TB_readfile.tcl
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+current_wave_config {FZ_behav.wcfg}
+add_wave {{/TB_readfile/i}} 
+save_wave_config {D:/MyFiles/Vivado_workplace/project_8 - Copy/FZ_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config {D:/MyFiles/Vivado_workplace/project_8 - Copy/FZ_behav.wcfg}
+source TB_readfile.tcl
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+close_sim
+launch_simulation
+open_wave_config {D:/MyFiles/Vivado_workplace/project_8 - Copy/FZ_behav.wcfg}
+source TB_readfile.tcl
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+save_wave_config {D:/MyFiles/Vivado_workplace/project_8 - Copy/FZ_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config {D:/MyFiles/Vivado_workplace/project_8 - Copy/FZ_behav.wcfg}
+source TB_readfile.tcl
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+close_sim
+launch_simulation
+open_wave_config {D:/MyFiles/Vivado_workplace/project_8 - Copy/FZ_behav.wcfg}
+source TB_readfile.tcl
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us

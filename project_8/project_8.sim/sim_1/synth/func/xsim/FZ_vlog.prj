@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"FZ_func_synth.v" \
+"../../../../../project_8.srcs/sim_1/new/FZ.v" \
+
+# Do not sort compile order
+nosort

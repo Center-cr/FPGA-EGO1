@@ -1,0 +1,27 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../project_8.srcs/sim_1/new/FZ.v" \
+"../../../../project_8.srcs/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v" \
+"../../../../project_8.srcs/sim_1/new/FZ_blue.v" \
+"../../../../project_8.srcs/sources_1/new/TEST.v" \
+"../../../../project_8.srcs/sources_1/new/Top_module.v" \
+"../../../../project_8.srcs/sources_1/new/clk_ut.v" \
+"../../../../project_8.srcs/sources_1/new/sub_7seg.v" \
+"../../../../project_8.srcs/sources_1/new/sub_7seg_translate.v" \
+"../../../../project_8.srcs/sources_1/new/sub_Blue_teeth.v" \
+"../../../../project_8.srcs/sources_1/new/sub_DDS_sine.v" \
+"../../../../project_8.srcs/sources_1/new/sub_Frequency_div.v" \
+"../../../../project_8.srcs/sources_1/new/sub_TIme_cal.v" \
+"../../../../project_8.srcs/sources_1/new/sub_bt_receiver.v" \
+"../../../../project_8.srcs/sources_1/new/sub_bt_transfer.v" \
+"../../../../project_8.srcs/sources_1/new/sub_cal_freq.v" \
+"../../../../project_8.srcs/sources_1/new/sub_cal_low_freq.v" \
+"../../../../project_8.srcs/sources_1/new/sub_get_f_BCD.v" \
+"../../../../project_8.srcs/sources_1/new/sub_receiver_8.v" \
+"../../../../project_8.srcs/sim_1/new/test.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

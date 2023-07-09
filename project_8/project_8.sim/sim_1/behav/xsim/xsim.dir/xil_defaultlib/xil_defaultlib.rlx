@@ -1,0 +1,25 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+D:/MyFiles/Vivado_workplace/project_8/project_8.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+D:/MyFiles/Vivado_workplace/project_8/project_8.srcs/sim_1/new/FZ.v,1685842160,verilog,,D:/MyFiles/Vivado_workplace/project_8/project_8.srcs/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v,,FZ,,,,,,,,
+D:/MyFiles/Vivado_workplace/project_8/project_8.srcs/sim_1/new/FZ_blue.v,1666854958,verilog,,D:/MyFiles/Vivado_workplace/project_8/project_8.srcs/sources_1/new/TEST.v,,testbench,,,,,,,,
+D:/MyFiles/Vivado_workplace/project_8/project_8.srcs/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v,1666577200,verilog,,D:/MyFiles/Vivado_workplace/project_8/project_8.srcs/sim_1/new/FZ_blue.v,,blk_mem_gen_0,,,,,,,,
+D:/MyFiles/Vivado_workplace/project_8/project_8.srcs/sources_1/ip/dds_compiler_0/sim/dds_compiler_0.vhd,1666576136,vhdl,,,,dds_compiler_0,,,,,,,,
+D:/MyFiles/Vivado_workplace/project_8/project_8.srcs/sources_1/new/TEST.v,1685842114,verilog,,D:/MyFiles/Vivado_workplace/project_8/project_8.srcs/sources_1/new/Top_module.v,,mesureFreq,,,,,,,,
+D:/MyFiles/Vivado_workplace/project_8/project_8.srcs/sources_1/new/Top_module.v,1666935401,verilog,,D:/MyFiles/Vivado_workplace/project_8/project_8.srcs/sources_1/new/clk_ut.v,,Top_module,,,,,,,,
+D:/MyFiles/Vivado_workplace/project_8/project_8.srcs/sources_1/new/clk_ut.v,1666872237,verilog,,D:/MyFiles/Vivado_workplace/project_8/project_8.srcs/sources_1/new/sub_7seg.v,,clk_ut,,,,,,,,
+D:/MyFiles/Vivado_workplace/project_8/project_8.srcs/sources_1/new/sub_7seg.v,1666930800,verilog,,D:/MyFiles/Vivado_workplace/project_8/project_8.srcs/sources_1/new/sub_7seg_translate.v,,sub_7seg,,,,,,,,
+D:/MyFiles/Vivado_workplace/project_8/project_8.srcs/sources_1/new/sub_7seg_translate.v,1666793047,verilog,,D:/MyFiles/Vivado_workplace/project_8/project_8.srcs/sources_1/new/sub_Blue_teeth.v,,sub_7seg_translate,,,,,,,,
+D:/MyFiles/Vivado_workplace/project_8/project_8.srcs/sources_1/new/sub_Blue_teeth.v,1666919091,verilog,,D:/MyFiles/Vivado_workplace/project_8/project_8.srcs/sources_1/new/sub_DDS_sine.v,,sub_Blue_teeth,,,,,,,,
+D:/MyFiles/Vivado_workplace/project_8/project_8.srcs/sources_1/new/sub_DDS_sine.v,1666748218,verilog,,D:/MyFiles/Vivado_workplace/project_8/project_8.srcs/sources_1/new/sub_Frequency_div.v,,sub_DDS_sine,,,,,,,,
+D:/MyFiles/Vivado_workplace/project_8/project_8.srcs/sources_1/new/sub_Frequency_div.v,1666674730,verilog,,D:/MyFiles/Vivado_workplace/project_8/project_8.srcs/sources_1/new/sub_TIme_cal.v,,sub_Frequency_div,,,,,,,,
+D:/MyFiles/Vivado_workplace/project_8/project_8.srcs/sources_1/new/sub_TIme_cal.v,1666942783,verilog,,D:/MyFiles/Vivado_workplace/project_8/project_8.srcs/sources_1/new/sub_bt_receiver.v,,sub_TIme_cal,,,,,,,,
+D:/MyFiles/Vivado_workplace/project_8/project_8.srcs/sources_1/new/sub_bt_receiver.v,1666901242,verilog,,D:/MyFiles/Vivado_workplace/project_8/project_8.srcs/sources_1/new/sub_bt_transfer.v,,sub_bt_receiver,,,,,,,,
+D:/MyFiles/Vivado_workplace/project_8/project_8.srcs/sources_1/new/sub_bt_transfer.v,1666904936,verilog,,D:/MyFiles/Vivado_workplace/project_8/project_8.srcs/sources_1/new/sub_cal_freq.v,,sub_bt_transfer,,,,,,,,
+D:/MyFiles/Vivado_workplace/project_8/project_8.srcs/sources_1/new/sub_cal_freq.v,1666806914,verilog,,D:/MyFiles/Vivado_workplace/project_8/project_8.srcs/sources_1/new/sub_cal_low_freq.v,,sub_cal_freq,,,,,,,,
+D:/MyFiles/Vivado_workplace/project_8/project_8.srcs/sources_1/new/sub_cal_low_freq.v,1666935401,verilog,,D:/MyFiles/Vivado_workplace/project_8/project_8.srcs/sources_1/new/sub_get_f_BCD.v,,sub_cal_low_freq,,,,,,,,
+D:/MyFiles/Vivado_workplace/project_8/project_8.srcs/sources_1/new/sub_get_f_BCD.v,1666771495,verilog,,D:/MyFiles/Vivado_workplace/project_8/project_8.srcs/sources_1/new/sub_receiver_8.v,,sub_get_f_BCD,,,,,,,,
+D:/MyFiles/Vivado_workplace/project_8/project_8.srcs/sources_1/new/sub_mode.v,1666352107,verilog,,D:/MyFiles/Vivado_workplace/project_8/project_8.srcs/sim_1/new/FZ.v,,sub_mode,,,,,,,,
+D:/MyFiles/Vivado_workplace/project_8/project_8.srcs/sources_1/new/sub_receiver_8.v,1666922373,verilog,,D:/MyFiles/Vivado_workplace/project_8/project_8.srcs/sim_1/new/test.v,,sub_receiver_8,,,,,,,,

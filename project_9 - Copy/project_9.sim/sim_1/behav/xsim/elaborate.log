@@ -1,0 +1,35 @@
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/MyPrograms/Vivado/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 1337e7278e97449da55942dce5bc03ab --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_3 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot Top_module_behav xil_defaultlib.Top_module xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 19 for port 'd' [D:/MyFiles/Vivado_workplace/project_9 - Copy/project_9.srcs/sources_1/new/t.v:45]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 5 for port 'seg7' [D:/MyFiles/Vivado_workplace/project_9 - Copy/project_9.srcs/sources_1/new/sub7seg.v:59]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 5 for port 'seg7' [D:/MyFiles/Vivado_workplace/project_9 - Copy/project_9.srcs/sources_1/new/sub7seg.v:87]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 5 for port 'seg7' [D:/MyFiles/Vivado_workplace/project_9 - Copy/project_9.srcs/sources_1/new/sub7seg.v:83]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 5 for port 'seg7' [D:/MyFiles/Vivado_workplace/project_9 - Copy/project_9.srcs/sources_1/new/sub7seg.v:79]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 5 for port 'seg7' [D:/MyFiles/Vivado_workplace/project_9 - Copy/project_9.srcs/sources_1/new/sub7seg.v:75]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 5 for port 'seg7' [D:/MyFiles/Vivado_workplace/project_9 - Copy/project_9.srcs/sources_1/new/sub7seg.v:71]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 5 for port 'seg7' [D:/MyFiles/Vivado_workplace/project_9 - Copy/project_9.srcs/sources_1/new/sub7seg.v:67]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 5 for port 'seg7' [D:/MyFiles/Vivado_workplace/project_9 - Copy/project_9.srcs/sources_1/new/sub7seg.v:63]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 19 for port 'd' [D:/MyFiles/Vivado_workplace/project_9 - Copy/project_9.srcs/sources_1/new/t.v:67]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.sub_Frequency_div
+Compiling module xil_defaultlib.sub_7seg_translate
+Compiling module xil_defaultlib.sub_get_f_BCD
+Compiling module xil_defaultlib.sub_7seg
+Compiling module blk_mem_gen_v8_4_3.blk_mem_gen_v8_4_3_output_stage(...
+Compiling module blk_mem_gen_v8_4_3.blk_mem_gen_v8_4_3_output_stage(...
+Compiling module blk_mem_gen_v8_4_3.blk_mem_gen_v8_4_3_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_3.blk_mem_gen_v8_4_3_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_3.blk_mem_gen_v8_4_3(C_FAMILY="art...
+Compiling module xil_defaultlib.blk_mem_gen_0
+Compiling module xil_defaultlib.sub_DDS_sine
+Compiling module xil_defaultlib.clk_ut
+Compiling module xil_defaultlib.sub_cal_freq
+Compiling module xil_defaultlib.Top_module
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Top_module_behav

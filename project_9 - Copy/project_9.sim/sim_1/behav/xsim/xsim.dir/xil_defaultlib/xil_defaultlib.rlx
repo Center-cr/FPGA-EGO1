@@ -1,0 +1,14 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+D:/MyFiles/Vivado_workplace/project_9 - Copy/project_9.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+D:/MyFiles/Vivado_workplace/project_9 - Copy/project_9.srcs/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v,1666949680,verilog,,D:/MyFiles/Vivado_workplace/project_9 - Copy/project_9.srcs/sources_1/new/DDS.v,,blk_mem_gen_0,,,,,,,,
+D:/MyFiles/Vivado_workplace/project_9 - Copy/project_9.srcs/sources_1/new/DDS.v,1666949689,verilog,,D:/MyFiles/Vivado_workplace/project_9 - Copy/project_9.srcs/sources_1/new/cal.v,,sub_DDS_sine,,,,,,,,
+D:/MyFiles/Vivado_workplace/project_9 - Copy/project_9.srcs/sources_1/new/cal.v,1666949689,verilog,,D:/MyFiles/Vivado_workplace/project_9 - Copy/project_9.srcs/sources_1/new/div.v,,sub_cal_freq,,,,,,,,
+D:/MyFiles/Vivado_workplace/project_9 - Copy/project_9.srcs/sources_1/new/div.v,1666949689,verilog,,D:/MyFiles/Vivado_workplace/project_9 - Copy/project_9.srcs/sources_1/new/f_bcd.v,,sub_Frequency_div,,,,,,,,
+D:/MyFiles/Vivado_workplace/project_9 - Copy/project_9.srcs/sources_1/new/f_bcd.v,1666949689,verilog,,D:/MyFiles/Vivado_workplace/project_9 - Copy/project_9.srcs/sources_1/new/sub7seg.v,,sub_get_f_BCD,,,,,,,,
+D:/MyFiles/Vivado_workplace/project_9 - Copy/project_9.srcs/sources_1/new/sub7seg.v,1666949689,verilog,,D:/MyFiles/Vivado_workplace/project_9 - Copy/project_9.srcs/sources_1/new/sub_7seg_tran.v,,sub_7seg,,,,,,,,
+D:/MyFiles/Vivado_workplace/project_9 - Copy/project_9.srcs/sources_1/new/sub_7seg_tran.v,1666949689,verilog,,D:/MyFiles/Vivado_workplace/project_9 - Copy/project_9.srcs/sources_1/new/ulk.v,,sub_7seg_translate,,,,,,,,
+D:/MyFiles/Vivado_workplace/project_9 - Copy/project_9.srcs/sources_1/new/t.v,1666949689,verilog,,,,Top_module,,,,,,,,
+D:/MyFiles/Vivado_workplace/project_9 - Copy/project_9.srcs/sources_1/new/ulk.v,1666949689,verilog,,D:/MyFiles/Vivado_workplace/project_9 - Copy/project_9.srcs/sources_1/new/t.v,,clk_ut,,,,,,,,

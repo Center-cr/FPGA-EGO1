@@ -1,0 +1,41 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Oct 28 16:45:15 2022
+# Process ID: 21236
+# Current directory: D:/MyFiles/Vivado_workplace/project_8 - Copy
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6328 D:\MyFiles\Vivado_workplace\project_8 - Copy\project_8.xpr
+# Log file: D:/MyFiles/Vivado_workplace/project_8 - Copy/vivado.log
+# Journal file: D:/MyFiles/Vivado_workplace/project_8 - Copy\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/MyFiles/Vivado_workplace/project_8 - Copy/project_8.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {D:/MyFiles/Vivado_workplace/project_8 - Copy/project_8.runs/impl_1/Top_module.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/MyFiles/Vivado_workplace/project_8 - Copy/project_8.runs/impl_1/Top_module.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+open_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/MyFiles/Vivado_workplace/project_8 - Copy/project_8.runs/impl_1/Top_module.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]

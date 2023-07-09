@@ -1,0 +1,9 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+D:/MyFiles/Vivado_workplace/project_7/project_7.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+D:/MyFiles/Vivado_workplace/project_7/project_7.srcs/sim_1/new/FZ.v,1666228480,verilog,,,,FZ,,,,,,,,
+D:/MyFiles/Vivado_workplace/project_7/project_7.srcs/sources_1/new/Top_module.v,1666228787,verilog,,D:/MyFiles/Vivado_workplace/project_7/project_7.srcs/sources_1/new/sub_7seg.v,,Top_module,,,,,,,,
+D:/MyFiles/Vivado_workplace/project_7/project_7.srcs/sources_1/new/sub_7seg.v,1666229817,verilog,,D:/MyFiles/Vivado_workplace/project_7/project_7.srcs/sources_1/new/sub_Frequency_div.v,,sub_7seg,,,,,,,,
+D:/MyFiles/Vivado_workplace/project_7/project_7.srcs/sources_1/new/sub_Frequency_div.v,1666228202,verilog,,D:/MyFiles/Vivado_workplace/project_7/project_7.srcs/sim_1/new/FZ.v,,sub_Frequency_div,,,,,,,,

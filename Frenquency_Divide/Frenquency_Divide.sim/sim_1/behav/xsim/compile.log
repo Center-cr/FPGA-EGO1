@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MyFiles/Vivado_workplace/Frenquency_Divide/Frenquency_Divide.srcs/sources_1/new/Frequency.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Frequency
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MyFiles/Vivado_workplace/Frenquency_Divide/Frenquency_Divide.srcs/sim_1/new/Frequency_div_Simulation.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Frequency_div_Simulation

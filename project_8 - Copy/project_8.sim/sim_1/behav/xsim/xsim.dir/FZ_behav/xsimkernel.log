@@ -1,0 +1,4 @@
+Running: xsim.dir/FZ_behav/xsimk.exe -simmode gui -wdb FZ_behav.wdb -simrunnum 0 -socket 8776
+Design successfully loaded
+Design Loading Memory Usage: 6528 KB (Peak: 6528 KB)
+Design Loading CPU Usage: 46 ms

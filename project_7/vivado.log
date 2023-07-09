@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sun Jun  4 09:06:52 2023
+# Process ID: 26084
+# Current directory: D:/MyFiles/Vivado_workplace/project_7
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3112 D:\MyFiles\Vivado_workplace\project_7\project_7.xpr
+# Log file: D:/MyFiles/Vivado_workplace/project_7/vivado.log
+# Journal file: D:/MyFiles/Vivado_workplace/project_7\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/MyFiles/Vivado_workplace/project_7/project_7.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/MyPrograms/Vivado/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:25 ; elapsed = 00:00:09 . Memory (MB): peak = 749.539 ; gain = 119.473
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Jun  4 13:02:33 2023...

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Oct 17 10:18:05 2022
+# Process ID: 2472
+# Current directory: D:/MyFiles/Vivado_workplace/project_2/project_2.runs/synth_1
+# Command line: vivado.exe -log flowing_light.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source flowing_light.tcl
+# Log file: D:/MyFiles/Vivado_workplace/project_2/project_2.runs/synth_1/flowing_light.vds
+# Journal file: D:/MyFiles/Vivado_workplace/project_2/project_2.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source flowing_light.tcl -notrace
